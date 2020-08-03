@@ -13,7 +13,7 @@
     $result = '';
 
     foreach($cars as $car) {
-        $result .= '<hr>' . $car['model'] . ' - ' . $car['year'] . ' - ' . $car['price'] . '<br>';
+        $result .= '<hr>' . $car['model'] . ' - ' . $car['year'] . ' - ' . $car['price'] . '€<br>';
     }
 
     echo $result ?? 'Not results';
